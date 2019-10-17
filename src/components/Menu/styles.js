@@ -6,7 +6,7 @@ export const Container = styled(Animated.ScrollView)`
   margin: 0 30px;
 `;
 
-export const QRCode = styled.View`
+export const QRCode = styled.Image`
   width: 100px;
   height: 100px;
   background: #fff;

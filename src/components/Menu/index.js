@@ -2,6 +2,8 @@ import React from 'react';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
+import qrcode from '~/assets/qrcode.png';
+
 import {
   Container,
   QRCode,
@@ -21,7 +23,7 @@ export default function Menu({translateY}) {
           outputRange: [0, 1],
         }),
       }}>
-      <QRCode />
+      <QRCode source={qrcode} />
       <Nav>
         <NavItem>
           <Icon name="help-outline" size={20} color="#fff" />
